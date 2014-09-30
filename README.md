@@ -44,7 +44,7 @@ The module uses three CSS classes, you will have to provide these yourself. The 
 	<dt>opened</dt>
 	<dd>This class is applied to the container element when the detail view is visible and is removed when the detail view is hidden from view.</dd>
 	<dt>transition</dt>
-	<dd>This class is applied to animate the change in height of the container element. It should at least transform the `max-height` property.</dd>
+	<dd>This class is applied to animate the change in height of the container element. It should at least transform the <code>max-height</code> property.</dd>
 </dl>
 
 
@@ -81,19 +81,19 @@ Configuration
 ---
 The following configuration options are available for the module:
 <dl>
-	<dt>`attrContent` (default: `data-sh-content`)</dt>
+	<dt><code>attrContent</code> (default: <code>data-sh-content</code>)</dt>
 	<dd>The name of the attribute which identifies the element with the content.</dd>
-	<dt>`attrContainer` (default: `data-sh-container`)</dt>
+	<dt><code>attrContainer</code> (default: <code>data-sh-container</code>)</dt>
 	<dd>The name of the attribute which identifies the element that acts as a container to the content element.</dd>
-	<dt>`attrOpenOnInit` (default: `data-sh-open`)</dt>
+	<dt><code>attrOpenOnInit</code> (default: <code>data-sh-open</code>)</dt>
 	<dd>The name of the attribute which marks the detail view as being open by default.</dd>
-	<dt>`attrTrigger` (default: `data-sh-trigger`)</dt>
+	<dt><code>attrTrigger</code> (default: <code>data-sh-trigger</code>)</dt>
 	<dd>The name of the attribute which identifies the element that acts as a trigger to show/hide the detail view.</dd>
-	<dt>`cssClosed` (default: `closed`)</dt>
+	<dt><code>cssClosed</code> (default: <code>closed</code>)</dt>
 	<dd>The name of the CSS class which is applied to the container element when the detail view is hidden.</dd>
-	<dt>`cssOpened` (default: `opened`)</dt>
+	<dt><code>cssOpened</code> (default: <code>opened</code>)</dt>
 	<dd>The name of the CSS class which is applied to the container element whe the detail view is visible.</dd>
-	<dt>`cssTransition` (default: `transition`)</dt>
+	<dt><code>cssTransition</code> (default: <code>transition</code>)</dt>
 	<dd>The name of the CSS class which is applied to enable the transition when manipulating the `max-height` property of the container element.</dd>
 </dl>
 
