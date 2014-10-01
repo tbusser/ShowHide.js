@@ -105,4 +105,10 @@ In case the trigger is placed inside the container a little extra work is done t
 
 Changelog
 ---
-2014-09-30 / version 1.0: Initial public release
+2014-10-01 / version 1.0.1:
+- Clean up of the Grunt tasks
+- Updated the linter rules
+- Fixed linter issues
+
+2014-09-30 / version 1.0  :
+- Initial public release
