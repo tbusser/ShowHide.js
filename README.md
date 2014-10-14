@@ -105,6 +105,9 @@ In case the trigger is placed inside the container a little extra work is done t
 
 Changelog
 ---
+2014-10-14 / version 1.1:
+- Fixed a bug on OSX Safari; An unwanted additional transition was visible after showing the detail view
+
 2014-10-01 / version 1.0.1:
 - Clean up of the Grunt tasks
 - Updated the linter rules
