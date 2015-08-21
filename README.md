@@ -105,6 +105,14 @@ In case the trigger is placed inside the container a little extra work is done t
 
 Changelog
 ---
+2015-08-21 / version 1.2:
+- Added support for the `aria-expanded` attribute on the trigger element
+- Added support for the `aria-hidden` attribute on the content element
+- Added support for the 'aria-controls' attribute on the trigger element
+- Changed the click handler of the trigger element to use currentTarget instead
+  of target. This will properly handle triggers which have child elements that
+  could trigger the click event
+
 2014-10-14 / version 1.1:
 - Fixed a bug on OSX Safari; An unwanted additional transition was visible after showing the detail view
 
