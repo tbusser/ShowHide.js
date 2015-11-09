@@ -105,6 +105,12 @@ In case the trigger is placed inside the container a little extra work is done t
 
 Changelog
 ---
+2015-11-09 / version 1.3:
+- Made two more attribute names configurable through the options object. You can
+  now specify the names for the attribute containing the trigger text when the
+  detail view is hidden and the attribute containing the trigger text when the
+  detail view is shown.
+
 2015-08-21 / version 1.2:
 - Added support for the `aria-expanded` attribute on the trigger element
 - Added support for the `aria-hidden` attribute on the content element

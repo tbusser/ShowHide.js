@@ -68,7 +68,6 @@
     "disallowSpacesInsideArrayBrackets"                    : true,
     "disallowSpacesInsideParentheses"                      : true,
     "disallowQuotedKeysInObjects"                          : true,
-    "disallowSpaceAfterObjectKeys"                         : true,
     "requireSpaceBeforeObjectValues"                       : true,
     "requireCommaBeforeLineBreak"                          : true,
     "requireAlignedObjectValues"                           : "ignoreFunction",
