@@ -1,4 +1,4 @@
-ShowHide.js
+ShowHide.js - jQuery
 ===
 The ShowHide.js module can be used to show and hide detail information when the user clicks on a trigger element.
 
