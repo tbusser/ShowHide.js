@@ -87,6 +87,10 @@ The following configuration options are available for the module:
 	<dd>The name of the attribute which identifies the element that acts as a container to the content element.</dd>
 	<dt><code>attrOpenOnInit</code> (default: <code>data-sh-open</code>)</dt>
 	<dd>The name of the attribute which marks the detail view as being open by default.</dd>
+	<dt><code>attrTextClosed</code> (default: <code>data-sh-text-closed</code>)</dt>
+	<dd>If this attribute is present on the trigger element the value of the attribute will be set as the text of the trigger when the detail view is hidden.</dd>
+	<dt><code>attrTextOpened</code> (default: <code>data-sh-text-opened</code>)</dt>
+	<dd>If this attribute is present on the trigger element the value of the attribute will be set as the text of the trigger when the detail view is visible.</dd>
 	<dt><code>attrTrigger</code> (default: <code>data-sh-trigger</code>)</dt>
 	<dd>The name of the attribute which identifies the element that acts as a trigger to show/hide the detail view.</dd>
 	<dt><code>cssClosed</code> (default: <code>closed</code>)</dt>
@@ -114,7 +118,7 @@ Changelog
 2015-08-21 / version 1.2:
 - Added support for the `aria-expanded` attribute on the trigger element
 - Added support for the `aria-hidden` attribute on the content element
-- Added support for the 'aria-controls' attribute on the trigger element
+- Added support for the `aria-controls` attribute on the trigger element
 - Changed the click handler of the trigger element to use currentTarget instead
   of target. This will properly handle triggers which have child elements that
   could trigger the click event
