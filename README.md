@@ -109,6 +109,12 @@ In case the trigger is placed inside the container a little extra work is done t
 
 Changelog
 ---
+2016-02-16 / version 1.4:
+- Made the event which triggers the detail view to be shown/hidden configurable through the `triggerEvent` option
+- Renamed `onClickHandlerTrigger` to `onTriggerEventHandler` since it is no longer always the click event which will toggle the detail view
+- The attribute with the trigger text for the closed and opened state no longer need to be on the trigger element but can be on any descendant of the trigger element
+- Added an MIT license
+
 2015-11-09 / version 1.3:
 - Made two more attribute names configurable through the options object. You can
   now specify the names for the attribute containing the trigger text when the
@@ -133,3 +139,8 @@ Changelog
 
 2014-09-30 / version 1.0  :
 - Initial public release
+
+
+License
+---
+This class and its accompanying README are [MIT licensed](http://www.opensource.org/licenses/mit-license.php).
